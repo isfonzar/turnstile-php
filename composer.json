@@ -8,6 +8,11 @@
             "Isfonzar\\TurnstilePhp\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Isfonzar\\Tests\\": "tests/"
+        }
+    },
     "authors": [
         {
             "name": "isfonzar",
@@ -16,5 +21,8 @@
     ],
     "require-dev": {
         "phpunit/phpunit": "^11.3"
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.9"
     }
 }
